@@ -32,6 +32,7 @@ export default {
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
   router: {
+    base: '/tryocmd/',
     mode: 'history'
   },
 
@@ -42,7 +43,8 @@ export default {
   modules: [],
 
   generate: {
-    dir: '../dist_server'
+    // dir: '../dist_server'
+    dir: '../dist'
   },
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
