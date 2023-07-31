@@ -1,0 +1,7 @@
+{
+  "restartable": "rs",
+  "watch": [
+    "./"
+  ],
+  "ext": "js,json,css,jpg,png,html"
+}
